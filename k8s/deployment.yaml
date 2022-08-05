@@ -50,6 +50,7 @@ spec:
       labels:
         app: kubenews
     spec:
+      replicas: 2
       containers:
         - name: kubenews
           image: maxxsantos/kube-news:v1
